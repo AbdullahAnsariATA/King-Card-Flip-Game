@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flip Card</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <div id="main-container">
+        <div id="card-container">
+             <img src="images/cardback.jpg" alt="cardback" onclick="flipCard(1)" id="img-1" />
+             <img src="images/cardback.jpg" alt="cardback" onclick="flipCard(2)" id="img-2" />
+             <img src="images/cardback.jpg" alt="cardback" onclick="flipCard(3)" id="img-3" />
+        </div>
+
+    <br/><br/><br/>
+
+     <div id="result-container">
+         <p id="result-message"><b>Your Result Will Be Shown Here.</b></p> <br/>
+         <p id="win-score">--- --- ---</p><br/>
+         <p id="lose-score">--- --- ---</p>
+         <button onclick="flipReset()">Reset Cards</button> <br/>
+     </div>
+</div>
+    <script src="app.js"></script>
+</body>
+
+</html>

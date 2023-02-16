@@ -1,0 +1,57 @@
+/* body {
+    margin: 0px;
+    padding: 0px;
+    background-color: #edffbb;
+}
+
+#card-container {
+    /* border: 2px solid red; */
+    width: 50%;
+    margin:0 auto;
+}
+
+#result-container {
+    text-align: center;
+    /* border: 2px solid green; */
+}
+
+#main-container {
+    text-align: center;
+    padding: 10px;
+    /* border: 3px solid blue;    */
+}
+
+button {
+    width: 150px;
+    height: 50px;
+    text-align:center;
+    border-radius: 10px;
+    border-width: 2px;
+    border-color: red;
+    font-weight:bold;
+    font-size: 18px;
+    background-color: yellow;
+    cursor:pointer;
+    display:block;
+    margin: 0 auto;
+}
+
+button:hover {
+    background-color: lightgray;
+    border-color: black;
+}
+
+p {
+    background-color: #e4e4e4;
+    border-style: inset;
+    border-color: rgb(142, 142, 142);
+    width: 250px;
+    height: 1.3em;
+    padding: 3px;
+    display: inline-block;
+}
+
+img {
+    margin: 10px;
+    cursor: pointer;
+} */
